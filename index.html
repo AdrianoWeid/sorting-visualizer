@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"> 
+    <title>Sorting visualizer</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="navbar">
+                <div class="navbar-item">
+                    <div class="costum-select">
+                        <select class="general-select">
+                            <option value="BubbleSort">Bubble Sort</option>
+                            <option value="MergeSort">Merge Sort</option>
+                            <option value="QuickSort">Quick Sort</option>
+                            <option value="HeapSort">Heap Sort</option>
+                            <option value="InsertionSort">Insertion Sort</option>
+                            <option value="SelectionSort">Selection Sort</option>
+                        </select>
+                    </div>
+                    <div class="navbar-item">
+                        <div class="navbar-item">
+                            <button class="general-button start-button">start visualization</button>
+                        </div>
+                        <div class="navbar-item">
+                            <button class="general-button options-button" onclick="shuffle();">shuffle collection</button>
+                        </div>
+                        <div class="navbar-item">
+                            <button class="general-button options-button" onclick="CreateRaondomCollection();">create random collection</button>
+                        </div>
+                        <div>
+                            <span class="range-caption">collectionrange</span>
+                            <input class="range-collection" id="range-collection" type="input" value="50" min="5" max="150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="algo-desc-container">
+            <p id="algo-desc"></p>
+        </div>
+        <div class="main-array-container">
+            <div class="array" id="array">
+
+            </div>
+        </div>
+    </div>
+    <script src="select.js" async></script>
+    <script src="main.js" async></script>
+</body>
+</html>
