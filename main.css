@@ -7,11 +7,9 @@
     box-sizing: border-box;
 }
 :root{
-    --color-yellow: #ff0000;
     --color-red: #c64756;
     --color-white: #FFF;
     --color-lightgreen: #96bb7c;
-    --color-dark: #202825;
     --color-dark: #202825;
 }
 body{
@@ -64,7 +62,7 @@ body{
 }
 .general-button:hover{
     cursor: pointer;
-    color: var(--color-yellow);
+    color: var(--color-red);
     font-weight: 600;
 }
 .general-button:active{
@@ -74,7 +72,7 @@ body{
     background-color: var(--color-dark);
 }
 .start-button{
-    background-color: var(--color-yellow);
+    background-color: var(--color-red);
     color: var(--color-white);
     border-radius: 15px;
     padding: 0.2em 0.5em;
@@ -118,7 +116,7 @@ body{
 }
 .custom-select:hover .select-selected{
     font-weight: 600;
-    color: var(--color-yellow);
+    color: var(--color-red);
 }
 .custom-select select {
     font-size: inherit;
@@ -166,7 +164,7 @@ body{
 }
 
 .select-items div:hover, .same-as-selected {
-    color: var(--color-yellow);
+    color: var(--color-red);
     font-weight: 600;
 }
 
