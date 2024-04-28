@@ -59,22 +59,22 @@ function SelectChange(select){
         let algo = algo_select.value;
         switch(algo){
             case "BubbleSort":
-                description_HTML.innerHTML = "Buble Sort má časovou komplexitu O(<var>n</var><sup>2</sup>)."
+                description_HTML.innerHTML = "Bubble Sort has a time complexity of O(<var>n</var><sup>2</sup>)."
                 break;
             case "MergeSort":
-                description_HTML.innerHTML = "Merge Sort má časovou komplexitu O(<var>n</var>Log<var>n</var>)."
+                description_HTML.innerHTML = "Merge Sort has a time complexity of O(<var>n</var> log <var>n</var>)."
                 break;
             case "SelectionSort":
-                description_HTML.innerHTML = "Selection Sort má časovou komplexitu O(<var>n</var><sup>2</sup>)."
+                description_HTML.innerHTML = "Selection Sort has a time complexity of O(<var>n</var><sup>2</sup>)."
                 break;
             case "QuickSort":
-                description_HTML.innerHTML = "Quick Sort má v průměru časovou komlexitu O(<var>n</var>Log<var>n</var>) a v nejhorším případě O(<var>n</var><sup>2</sup>)."
+                description_HTML.innerHTML = "Quick Sort has an average time complexity of O(<var>n</var> log <var>n</var>) and a worst-case time complexity of O(<var>n</var><sup>2</sup>)."
                 break;
             case "HeapSort":
-                description_HTML.innerHTML = "Heap Sort má časovou komplexitu O(<var>n</var>Log<var>n</var>)."
+                description_HTML.innerHTML = "Heap Sort has a time complexity of O(<var>n</var> log <var>n</var>)."
                 break;
             case "InsertionSort":
-                description_HTML.innerHTML = "Insertion Sort má časovou komplexitu O(<var>n</var><sup>2</sup>)."
+                description_HTML.innerHTML = "Insertion Sort has a time complexity of O(<var>n</var><sup>2</sup>)."
                 break;
         }
     }
